@@ -1,0 +1,7 @@
+.clock{
+	width:200px;
+	height:200px;
+	background-color:grey;
+	border-radius:50%;
+	position:relative;
+}
