@@ -1,7 +1,7 @@
 .clock{
 	width:200px;
 	height:200px;
-	background-color:grey;
+	background-color:#f1f1f1;
 	border-radius:50%;
 	position:relative;
 }
@@ -13,17 +13,59 @@
 	left:100px;
 	bottom:100px;
 	transform-origin: 50% 100%;
+	z-index:2;
 }
+
 .seconds{
 	height:95px;
 	background-color:red;
 }
-.minute{
+.minutes{
 	height:90px;
 }
-.hour{
+
+.hours{
 	height:60px;
-	width:3px;
 }
+
+.one, .two, .three, .twelve, .six, .nine{
+	width:3px;
+	height:30px;
+	left:100px;
+	position:absolute;
+	display:float;
+	
+	background-color:blue;
+}
+
+.one{
+	transform:rotate(30deg);
+	left:142px;
+	bottom:157px;
+}
+.two{
+	transform:rotate(60deg);
+	left:172px;
+	bottom:126px;
+}
+	
+.three{
+	transform:rotate(90deg);
+	left:183px;
+	bottom:84.5px;
+}
+.six{
+	transform:rotate(180deg);
+	left:100px;
+	bottom:0;
+}
+
+.nine{
+	transform:rotate(270deg);
+	left:15px;
+	bottom:84.5px;
+}
+	
+
 
 	
