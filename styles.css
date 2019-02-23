@@ -121,6 +121,20 @@ header>h1{
 	right:-40px;
 }
 
+.green-glow{
+	border:5px solid #31b43a;
+	box-shadow:0 0 20px #31b43a;
+	z-index:5;
+	position:absolute;
+}
+
+.red-glow{
+	border:5px solid #fc121b;
+	box-shadow: 0 0 20px #d01115;
+	z-index:5;
+	position:absolute;
+}
+
 .choices{
 text-align:center;
 }	
@@ -136,7 +150,8 @@ text-align:center;
 	padding:10px;
 	margin:20px;
 	transition:0.3s;
-	background:#FFC322;
+	/*background:#FFC322;*/
+	z-index:1;
 }
 .choice img{
 	width:100%;
@@ -164,4 +179,6 @@ text-align:center;
 font-family:Asap, sans-serif;
 font-weight:bold;
 }	
+
+
 	
